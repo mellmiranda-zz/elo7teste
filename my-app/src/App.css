@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+	padding: 0;
+}
+
+body, html {
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    margin-top: -12rem;
+    margin-bottom: 10rem;
+    font-size: 3.5rem;
+    color: #fff;
+    text-shadow: 0.5px 0.5px 6px black;
+}
+
+.imgHeader{
+    width: 80%;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.textCinza, .title__time{
+    color: #808080;
+    font-size: 1.2rem;
+}
+
+.textHeader{
+    width: 75%;
+}
+
+.textVerde{
+    color: #03BB85;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.textCEO, .title__time{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.textNome{
+    color: #ffb515;
+    font-style: italic;
+    font-size: 1.2rem;
+    margin-bottom: 25px;
+}
+.linha{
+    color: #c0c0c0;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+
+}
+
+.timeCeo{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.timeColaboradores{
+    text-align: center;
+}
+.textContainer{
+    width: 33%;
+    margin-left: 40px
+}
+
+.timeContainer{
+    margin-top: 5rem;
+    background-color: #f5f5f5;
+    padding: 50px;
+}
+
+.timeImg{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        margin-top: -3rem;
+        margin-bottom: 4rem;
+        font-size: 1.7rem;
+    } 
+    .textContainer {
+        width: 100%;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .timeContainer {
+        margin-top: 0;
+    }
+  }
+
+/*mobile*/
+/* 
+*/
