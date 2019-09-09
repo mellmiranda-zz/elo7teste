@@ -16,9 +16,9 @@ const Time = () =>(
             <h2 className="title__time">Conheça nosso time<br></br>fora de série!</h2>
             <section className="timeImg">
                 <img src="../img/camila.png"></img>
-                <img src="../img/guto.png"></img>
-                <img src="../img/david.png"></img>
-                <img src="../img/beatriz.png"></img>
+                <img className="timeImgMargem" src="../img/guto.png"></img>
+                <img className="timeImgMargem" src="../img/david.png"></img>
+                <img className="timeImgMargem" src="../img/beatriz.png"></img>
             </section>
         </section>
     </div>

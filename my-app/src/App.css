@@ -70,26 +70,31 @@ header{
 
 .timeColaboradores{
     text-align: center;
+    margin-top: 3rem;
 }
 .textContainer{
     width: 33%;
-    margin-left: 40px
+    margin-left: 40px;
 }
 
 .timeContainer{
     margin-top: 5rem;
     background-color: #f5f5f5;
     padding: 50px;
+    margin-left: 5rem;
+    margin-right: 5rem;
 }
 
 .timeImg{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-
-
+    margin-top: 3rem;
 }
 
+.timeImgMargem{
+    margin-left: 10px;
+}
 
 
 @media only screen and (max-width: 600px) {
@@ -106,8 +111,7 @@ header{
     .timeContainer {
         margin-top: 0;
     }
+    .timeImgMargem{
+        margin-left: 0;
+    }
   }
-
-/*mobile*/
-/* 
-*/
