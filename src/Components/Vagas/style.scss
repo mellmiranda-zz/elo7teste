@@ -1,0 +1,24 @@
+.vagas{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+}
+
+.textNomeVaga{
+    color: #03BB85;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+.containerVagas{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: -webkit-center;
+}
+.titleVagas{
+    margin-top: 20px;
+    text-align: center;
+}
+.subTitleVagas, .subTitleBeneficios{
+    margin: 20px 0 50px;
+}

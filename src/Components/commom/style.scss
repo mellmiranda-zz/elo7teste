@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+	padding: 0;
+}
+
+body, html {
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    margin-top: -12rem;
+    margin-bottom: 10rem;
+    font-size: 3.5rem;
+    color: #fff;
+    text-shadow: 0.5px 0.5px 6px black;
+}
+.textCinza, .subTitle{
+    color: #808080;
+    font-size: 1.2rem;
+}
+
+.textVerde{
+    color: #03BB85;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    margin-bottom: 2rem;
+}
+
+.textCEO, .subTitle{
+    text-transform: uppercase;
+}
+
+.textNome{
+    color: #ffb515;
+    font-style: italic;
+    font-size: 1.2rem;
+    margin-bottom: 25px;
+}
+.linha{
+    color: #c0c0c0;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+
+}
+.textContainer{
+    width: 33%;
+    margin-left: 40px;
+}

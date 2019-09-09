@@ -1,13 +1,13 @@
 {
     "version": 3,
-    "mappings": "ACAA,AAAA,WAAW,CAAA;EACT,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,OAAO,EAAE,MAAM;EACf,UAAU,EAAE,IAAI;CACjB",
+    "mappings": "ACAA,AAAA,WAAW,CAAA;EACT,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,OAAO,EAAE,MAAM;EACf,UAAU,EAAE,IAAI;CACjB;;ACLD,AAAA,OAAO,CAAA;EACH,gBAAgB,EAAE,OAAO;EACzB,OAAO,EAAE,GAAG;EACZ,KAAK,EAAE,IAAI;EACX,UAAU,EAAE,MAAM;EAClB,eAAe,EAAE,IAAI;EACrB,UAAU,EAAE,IAAI;CACnB;;AACD,AAAA,eAAe,CAAA;EACX,eAAe,EAAE,IAAI;CACxB",
     "sources": [
-        "../assets/main.scss",
         "../Components/Beneficios/style.scss",
         "../Components/footer/style.scss",
         "../Components/Header/style.scss",
         "../Components/Time/style.scss",
-        "../Components/Vagas/style.scss"
+        "../Components/Vagas/style.scss",
+        "../Components/commom/style.scss"
     ],
     "names": [],
     "file": "main.css"
