@@ -2,7 +2,7 @@ import React, {PureComponent as Component} from 'react';
 import axios from 'axios';
 
 const Localizacao = ({local})=>{
-    return(<p>{local?`${local.bairro},${local.cidade},${local.pais}`: "Remoto"}</p>)
+    return(<p className="textCinza">{local?`${local.bairro},${local.cidade},${local.pais}`: "Remoto"}</p>)
 }
 class Vagas extends Component{
     constructor(props){
@@ -25,17 +25,22 @@ class Vagas extends Component{
         const props = this.props
         const vagas = this.getVagas(this.state.vagas)
         return( 
-        <section>
-            <h2 className="title__vagas">Vagas em Aberto</h2>
+        <div className="containerVagas">
+            <h2 className="subTitle titleVagas">Vagas em Aberto</h2>
+            <h2 className="subTitle subTitleVagas">Desenvolvimento</h2>
             {
                 vagas.map(item=>{   
-                    return(<div id="vaga">
-                        <a href={item.link}>{item.cargo}</a>
-                        <Localizacao local = {item.localizacao}/>
-                    </div>)
+                    return(
+                    <section id="vaga" >
+                        <section className="vagas">
+                            <a className="textNomeVaga" href={item.link}>{item.cargo}</a>
+                            <Localizacao local = {item.localizacao}/>
+                        </section>
+                    </section>
+                    )
                 })
             }
-        </section>
+        </div>
         )
     }
 }

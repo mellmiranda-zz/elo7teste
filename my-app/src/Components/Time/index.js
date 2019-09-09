@@ -13,7 +13,7 @@ const Time = () =>(
             </section>
         </section>
         <section className="timeColaboradores">
-            <h2 className="title__time">Conheça nosso time<br></br>fora de série!</h2>
+            <h2 className="subTitle">Conheça nosso time<br></br>fora de série!</h2>
             <section className="timeImg">
                 <img src="../img/camila.png"></img>
                 <img className="timeImgMargem" src="../img/guto.png"></img>
