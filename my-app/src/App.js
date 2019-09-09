@@ -3,6 +3,7 @@ import './App.css';
 import Header from './Components/Header/index';
 import Time from './Components/Time/index';
 import Vagas from './Components/Vagas/index'
+import Beneficios from './Components/Benenficios';
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
     <div className="App">
       <Header/>
       <Time/>
+      <Beneficios/>
       <Vagas/> 
     </div>
   );

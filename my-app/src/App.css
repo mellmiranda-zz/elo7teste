@@ -38,16 +38,21 @@ header{
 
 .textVerde{
     color: #03BB85;
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     text-transform: uppercase;
     font-weight: bold;
     text-decoration: none;
+    margin-bottom: 2rem;
 }
 
 .textCEO, .subTitle{
     text-transform: uppercase;
 }
 
+.textBeneficios{
+    text-align: justify;
+    width: 93%;
+}
 .textNome{
     color: #ffb515;
     font-style: italic;
@@ -98,8 +103,8 @@ header{
     margin-top: 20px;
     text-align: center;
 }
-.subTitleVagas{
-    margin: 50px 0 50px;
+.subTitleVagas, .subTitleBeneficios{
+    margin: 20px 0 50px;
 }
 
 .vagas{
@@ -118,6 +123,22 @@ header{
     flex-direction: column;
     flex-wrap: wrap;
     text-align: -webkit-center;
+}
+.beneficios{
+    display: flex;
+    justify-content: center;
+    padding: 0 8rem;
+    margin-top: 50px;
+}
+.beneficiosColuna{
+    margin-left: 25px;
+    text-align: center;
+    color: #808080;
+}
+.saibaColuna{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 @media only screen and (max-width: 600px) {
