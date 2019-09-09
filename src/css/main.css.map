@@ -1,0 +1,14 @@
+{
+    "version": 3,
+    "mappings": "ACAA,AAAA,WAAW,CAAA;EACT,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,OAAO,EAAE,MAAM;EACf,UAAU,EAAE,IAAI;CACjB",
+    "sources": [
+        "../assets/main.scss",
+        "../Components/Beneficios/style.scss",
+        "../Components/footer/style.scss",
+        "../Components/Header/style.scss",
+        "../Components/Time/style.scss",
+        "../Components/Vagas/style.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
