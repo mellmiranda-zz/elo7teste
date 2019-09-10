@@ -6,7 +6,7 @@
 
 body, html {
     width: 100%;
-    font-family: 'Roboto', sans-serif;
+    font-family: $font;
 }
 
 h1{
@@ -17,12 +17,13 @@ h1{
     text-shadow: 0.5px 0.5px 6px black;
 }
 .textCinza, .subTitle{
-    color: #808080;
+    color: $cinza;
     font-size: 1.2rem;
 }
 
+
+
 .textVerde{
-    color: #03BB85;
     font-size: 1.1rem;
     text-transform: uppercase;
     font-weight: bold;
@@ -35,7 +36,7 @@ h1{
 }
 
 .textNome{
-    color: #ffb515;
+    color: $amarelo;
     font-style: italic;
     font-size: 1.2rem;
     margin-bottom: 25px;
@@ -49,4 +50,13 @@ h1{
 .textContainer{
     width: 33%;
     margin-left: 40px;
+}
+.text{
+    font-size: 1.2rem;
+}
+.verde{
+    color: $verde;
+}
+.cinza{
+    color: $cinza;
 }

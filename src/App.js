@@ -1,9 +1,9 @@
 import React from 'react';
-import Header from './Components/Header/index';
-import Time from './Components/Time/index';
-import Vagas from './Components/Vagas/index'
+import Header from './Components/Header';
+import Time from './Components/Time';
+import Vagas from './Components/Vagas';
 import Beneficios from './Components/Beneficios';
-import Footer from './Components/footer'
+import Footer from './Components/footer';
 import './css/main.css';
 
 function App() {

@@ -2,10 +2,10 @@ header{
     display: flex;
     align-items: center;
     flex-direction: column;
-}
-.imgHeader{
-    width: 80%;
-}
-.textHeader{
-    width: 75%;
+    .img{
+        width: 80%;
+    }
+    .text{
+        width: 75%;
+    }
 }
