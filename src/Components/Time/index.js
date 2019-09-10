@@ -7,9 +7,9 @@ const Time = () =>(
                 <img src="../img/placeholder-video.png"></img> 
             </section>
             <section className="textContainer">
-                <p className="textCEO textCinza">Palavas do CEO</p>
-                <p className="textNome">Carlos Curioni</p>
-                <p className="textCinza">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate libero tempore velit non voluptatum cum nesciunt. Dolor quas, iure eos doloremque ullam quasi aperiam labore neque debitis! Ad, veniam!</p>
+                <p className="textCEO cinza">Palavas do CEO</p>
+                <p className="textNome amarelo">Carlos Curioni</p>
+                <p className="text cinza">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate libero tempore velit non voluptatum cum nesciunt. Dolor quas, iure eos doloremque ullam quasi aperiam labore neque debitis! Ad, veniam!</p>
             </section>
         </section>
         <section className="timeColaboradores">

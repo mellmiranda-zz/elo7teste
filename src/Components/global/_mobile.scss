@@ -1,0 +1,41 @@
+@media only screen and (max-width: 600px) {
+    h1 {
+        margin-top: -3rem;
+        margin-bottom: 4rem;
+        font-size: 1.7rem;
+    } 
+    .textContainer {
+        width: 100%;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .timeContainer {
+        margin-top: 0;
+    }
+    .timeImgMargem{
+        margin-left: 0;
+    }
+    .lista{
+        padding: 0; 
+        flex-direction: column;
+    }
+
+    .imagemFesta{
+        width: 100%;
+    }
+    .vaga{
+        width: 100%;
+        display: block;
+    }
+    .subTitle{
+        width: 100%;
+    }
+    .subTitle{
+        margin: 10px 0 10px;
+    }
+
+    .timeContainer{
+        padding: 1rem;
+        margin: 2rem 1rem 2rem 1rem;
+    }
+}

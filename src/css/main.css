@@ -5,17 +5,20 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   padding: 0 8rem;
   margin-top: 50px;
 }
 
 .textBeneficios {
   text-align: justify;
-  width: 93%;
+  padding: 0 25px;
 }
 
 .beneficiosColuna {
-  margin-left: 25px;
   text-align: center;
   color: #808080;
 }
@@ -31,6 +34,22 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.lista {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px 95px;
+}
+
+.saiba {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.imagemFesta {
+  margin: 60px 0 60px;
 }
 
 .footer {
@@ -71,6 +90,13 @@ h1 {
   font-size: 1.2rem;
 }
 
+.textLink {
+  margin-top: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
 .textVerde {
   font-size: 1.1rem;
   text-transform: uppercase;
@@ -84,7 +110,6 @@ h1 {
 }
 
 .textNome {
-  color: #ffb515;
   font-style: italic;
   font-size: 1.2rem;
   margin-bottom: 25px;
@@ -111,6 +136,10 @@ h1 {
 
 .cinza {
   color: #808080;
+}
+
+.amarelo {
+  color: #ffb515;
 }
 
 header {
@@ -145,6 +174,10 @@ header .text {
       flex-wrap: wrap;
 }
 
+.textCEO {
+  font-weight: bold;
+}
+
 .timeColaboradores {
   text-align: center;
   margin-top: 3rem;
@@ -154,7 +187,7 @@ header .text {
   margin-top: 5rem;
   background-color: #f5f5f5;
   padding: 50px;
-  margin: 0 5rem 0 5rem;
+  margin: 2rem 10rem 0 10rem;
 }
 
 .timeImg {
@@ -173,7 +206,7 @@ header .text {
   margin-left: 10px;
 }
 
-.vagas {
+.vaga {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -181,11 +214,16 @@ header .text {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-bottom: 15px;
 }
 
 .textNomeVaga {
-  color: #03BB85;
   font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.textLinkVagas {
+  margin-top: 0;
   text-decoration: none;
 }
 
@@ -209,5 +247,57 @@ header .text {
 
 .subTitleVagas, .subTitleBeneficios {
   margin: 20px 0 50px;
+}
+
+.subTitle {
+  margin: 10px 0 50px;
+}
+
+.subTitleVagas {
+  width: 53%;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    margin-top: -3rem;
+    margin-bottom: 4rem;
+    font-size: 1.7rem;
+  }
+  .textContainer {
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .timeContainer {
+    margin-top: 0;
+  }
+  .timeImgMargem {
+    margin-left: 0;
+  }
+  .lista {
+    padding: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .imagemFesta {
+    width: 100%;
+  }
+  .vaga {
+    width: 100%;
+    display: block;
+  }
+  .subTitle {
+    width: 100%;
+  }
+  .subTitle {
+    margin: 10px 0 10px;
+  }
+  .timeContainer {
+    padding: 1rem;
+    margin: 2rem 1rem 2rem 1rem;
+  }
 }
 /*# sourceMappingURL=main.css.map */

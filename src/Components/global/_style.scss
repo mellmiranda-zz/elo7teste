@@ -21,7 +21,12 @@ h1{
     font-size: 1.2rem;
 }
 
-
+.textLink{
+    margin-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+}
 
 .textVerde{
     font-size: 1.1rem;
@@ -36,7 +41,6 @@ h1{
 }
 
 .textNome{
-    color: $amarelo;
     font-style: italic;
     font-size: 1.2rem;
     margin-bottom: 25px;
@@ -59,4 +63,8 @@ h1{
 }
 .cinza{
     color: $cinza;
+}
+
+.amarelo{
+    color: $amarelo;
 }
