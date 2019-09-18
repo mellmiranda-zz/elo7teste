@@ -33,12 +33,7 @@ class Vagas extends Component{
         return listaLimpa
     }
 
-    listarVagas(listaVagas) {
-        return 
-    }
-
     render(){
-        const props = this.props
         const vagas = this.getVagas(this.state.vagas)
         return( 
             <div className="containerVagas" id="vagaLink">
